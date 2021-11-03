@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Principal</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+      <header>
+          <h1>Hojas de Estilo en Cascada CSS,Frameworks CSS</h1>
+      </header> 
+      <nav> 
+        <ul>
+            <li><a href="#"><a href="index.html"> Inicio </a> </a></li>
+    
+            <li><a href="#">Temas</a>
+                <ul>
+                    <li><a href="#">¿Cómo funciona CSS con HTML?</a></li>
+                </ul>
+
+      </nav>
+      <main>
+          <section>
+              <article>
+                Cuando un navegador muestra un documento, ha de combinar el contenido con la información de estilo del documento. Procesa el documento en una serie de etapas, que enumeraremos a continuación. Ten en cuenta que este es un modelo muy simplificado de lo que sucede cuando un navegador carga una página web y que cada navegador gestiona el proceso de manera diferente. Pero esto es más o menos lo que sucede.
+
+                El navegador carga el HTML (por ejemplo, lo recibe de la red).
+                Convierte el HTML en un DOM (Modelo de objetos del documento). El DOM representa el documento en la memoria del ordenador. Lo explicaremos más detalladamente en la sección siguiente.
+                Entonces, el navegador va a buscar la mayor parte de los recursos vinculados al documento HTML, como las imágenes y los videos incrustados... ¡y también el CSS vinculado! 
+
+                <p>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de selector. Por ejemplo, elemento, clase, ID, y así sucesivamente. Para cada tipo de selector que encuentres, calcula qué reglas deben aplicarse y a qué nodos en el DOM se les aplica el estilo según corresponda (este paso intermedio se llama árbol de renderización).</p> 
+                El árbol de renderización presenta la estructura en que los nodos deben aparecer después de aplicarle las reglas.
+                En la pantalla se muestra el aspecto visual de la página (esta etapa se llama pintura).        
+                <img src="img/css.svg" alt="">
+            </article>
+          </section>
+          <aside>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+
+          </aside>
+     </main>
+      <footer>
+        <p>Correo: Harold.solano@hotmail.com <br>
+            Skype: Harold.solano.arevalo <br>
+            Fecha de Actualizacion 30-09-2021 </br>
+      </footer>
+    </body>
+</html>
